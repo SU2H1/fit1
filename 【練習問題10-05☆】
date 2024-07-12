@@ -1,0 +1,6 @@
+x = int(input('数字を入力せよ'))
+y = int(input('数字を入力せよ'))
+z = int(input('数字を入力せよ'))
+print (1 <= x <= 10)
+print (x < 3 or 5 < x)
+print (z < x or y < x)
