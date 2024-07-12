@@ -1,0 +1,3 @@
+password = input ('パスワード（8文字以上）')
+if len(password) < 8 :
+  print('パスワードが短すぎます')
