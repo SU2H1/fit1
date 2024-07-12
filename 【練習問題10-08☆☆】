@@ -1,0 +1,9 @@
+w = input('体重kg')
+h = input('身長cm')
+bmi = (int(w) / ((int(h)/100) * (int(h)/100)))
+if bmi < 18.50 :
+  print ('低体重')
+elif bmi < 25 :
+  print ('標準')
+else :
+  print ('肥満')
