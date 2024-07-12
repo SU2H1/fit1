@@ -1,0 +1,9 @@
+g = input('今は朝・昼・夜？')
+if g == '朝' : 
+  print('おはよう')
+elif g == '昼' :
+  print('こんにちは')
+elif g == '夜' :
+  print('こんばんは')
+else:
+  print('わからないよ')
