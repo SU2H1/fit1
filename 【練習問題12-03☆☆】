@@ -1,0 +1,7 @@
+x = []
+word = input('文字を入力して下さい')
+x.append(word)
+while word != 'end':
+  #ここに要素を追加するコード
+  word = input ('文字列を入力して下さい')
+print(x)
