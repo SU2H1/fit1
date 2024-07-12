@@ -1,0 +1,3 @@
+w = input('体重kg')
+h = input('身長cm')
+print(int(w) / ((int(h)/100) * (int(h)/100)))
