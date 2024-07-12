@@ -1,0 +1,4 @@
+names = ['Alice', 'Bob', 'Carol'], ['Dave', 'Ellen', 'Frank']
+year = int(input('学年を入力してください：'))
+classnumber = int(input('組を入力してください：'))
+print(names[year-1][classnumber-1])
