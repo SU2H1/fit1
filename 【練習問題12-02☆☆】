@@ -1,0 +1,5 @@
+x = list(range(100))
+for number in range(len(x)):
+    x[number] = x[number]**2
+
+print (x)
