@@ -1,0 +1,3 @@
+dictionary = {'dog':'犬', 'cat':'猫', 'horse':'馬'}
+word = input ('英単語を入力して下さい')
+print(dictionary[word])
