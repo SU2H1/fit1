@@ -1,0 +1,6 @@
+greetings = ["Good morning", "Good afternoon", "Good evening"]
+names = ["Alice", "Bob", "Carol", "Dave", "Ellen"]
+
+for greeting in greetings:
+    for name in names:
+        print(greeting + ", " + name)
