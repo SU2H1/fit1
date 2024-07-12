@@ -1,0 +1,11 @@
+n = int(input('数字を入力してください'))
+if n % 2 == 0 :
+  if n % 3 == 0 :
+    print ('6の倍数')
+  else: 
+    print ('２の倍数')
+else: 
+  if n % 3 == 0 :
+    print ('３の倍数')
+  else :
+    print ('その他')
