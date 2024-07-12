@@ -1,0 +1,7 @@
+number = 0
+number = int (input('数字を入力してください:'))
+while number > 0:
+  number = int (input('数字を入力してください:'))
+if number <= 0 :
+ sum += number
+print (sum)
