@@ -1,0 +1,1 @@
+print(max(len('horse'), len('elephant'), len('hippopotamus'), len('dolphin')))
