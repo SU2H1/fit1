@@ -1,0 +1,4 @@
+password = input ('パスワード（8文字以上)')
+while len(password) < 8 :
+  print ('短すぎます')
+  password = input ('パスワード（8文字以上)')
