@@ -1,0 +1,6 @@
+dictionary = {'dog':'犬', 'cat':'猫', 'horse':'馬'}
+word = input ('英単語を入力して下さい')
+if word in dictionary:
+  print (dictionary[word])
+else:
+  print ('わかりません')
