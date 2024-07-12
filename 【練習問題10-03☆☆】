@@ -1,0 +1,5 @@
+n = int(input('数字を入力せよ'))
+if n%2 == 0 :
+  print('偶数')
+else:
+  print('奇数')
