@@ -1,0 +1,6 @@
+a = int(input('数値a'))
+b = int(input('数値b'))
+c = int(input('数値c'))
+import math
+print ((-b + math.sqrt (b * b - (4 * a * c))) / (a * 2) )
+print ((-b - math.sqrt (b * b - (4 * a * c))) / (a * 2))
